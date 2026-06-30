@@ -122,16 +122,19 @@
     "items": [
       {
         "id": "invoiceAI",
+        "imageUrl": "/showcase/invoice-ai-fill.gif",
         "es": { "name": "Carga de facturas con IA", "desc": "Subí un PDF y la IA extrae tipo, CUIT, fechas e importes automáticamente." },
         "en": { "name": "AI invoice upload", "desc": "Upload a PDF and AI extracts type, tax ID, dates, and amounts automatically." }
       },
       {
         "id": "stock",
+        "imageUrl": "/showcase/stock-control.gif",
         "es": { "name": "Control de stock", "desc": "Inventario por depósito, alertas de mínimo y movimientos en tiempo real." },
         "en": { "name": "Stock control", "desc": "Inventory by warehouse, minimum-stock alerts, and real-time movements." }
       },
       {
         "id": "yatel",
+        "imageUrl": "/showcase/yatel-consultation.gif",
         "es": { "name": "Consulta a Yatel", "desc": "Preguntale a tu copiloto por cualquier dato de tu operación." },
         "en": { "name": "Ask Yatel", "desc": "Ask your copilot about any data in your operation." }
       }
