@@ -1,0 +1,29 @@
+---
+// Kaiken isotipo — rombo tehuelche con K inscrita, igual al de la app.
+interface Props {
+  size?: number;
+  opacity?: number;
+  class?: string;
+}
+const { size = 26, opacity = 1, class: className = '' } = Astro.props;
+---
+<svg
+  width={size}
+  height={size}
+  viewBox="0 0 120 120"
+  fill="none"
+  class={className}
+  style={opacity < 1 ? `opacity:${opacity}` : ''}
+>
+  <circle cx="60" cy="60" r="56" stroke="#D0D8E4" stroke-width="1.4"/>
+  <polygon points="60,14 106,60 60,106 14,60" fill="none" stroke="#D0D8E4" stroke-width="1.8"/>
+  <polygon points="60,28 92,60 60,92 28,60" fill="none" stroke="#C0623A" stroke-width="2.2"/>
+  <line x1="52" y1="44" x2="52" y2="76" stroke="#0D0F12" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="52" y1="60" x2="68" y2="44" stroke="#0D0F12" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="52" y1="60" x2="68" y2="76" stroke="#0D0F12" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="60" cy="100" r="3" fill="#7BAFC4"/>
+  <path d="M15,31 L15,15 L31,15" stroke="#3D6B4F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105,31 L105,15 L89,15" stroke="#3D6B4F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15,89 L15,105 L31,105" stroke="#3D6B4F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M105,89 L105,105 L89,105" stroke="#3D6B4F" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

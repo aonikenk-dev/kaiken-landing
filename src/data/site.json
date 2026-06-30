@@ -1,0 +1,172 @@
+{
+  "site": {
+    "name": "Kaiken",
+    "badge": "BOP",
+    "tagline": "Business Operations Platform",
+    "slogan": "Business at the edge",
+    "cover_slogan": "Crafted at the edge · 🗻",
+    "location": "Patagonia, Argentina",
+    "email": "hello@aonikenk.dev",
+    "by": "aonikenk.dev"
+  },
+  "splash": {
+    "es": { "tagline": "Business Operations Platform", "slogan": "Business at the edge." },
+    "en": { "tagline": "Business Operations Platform", "slogan": "Business at the edge." }
+  },
+  "hero": {
+    "es": {
+      "title": ["Business,", "at", "the edge."],
+      "sub": "Operations powered by AI.",
+      "body": "Kaiken centraliza facturación, finanzas, stock, operaciones y RRHH en un solo lugar, potenciado con inteligencia artificial. Pensado para empresas del sector productivo que necesitan visibilidad total sin perder velocidad.",
+      "cta_primary": "Solicitar demo",
+      "cta_secondary": "Ver módulos ↓"
+    },
+    "en": {
+      "title": ["Business,", "at", "the edge."],
+      "sub": "Operations powered by AI.",
+      "body": "Kaiken centralizes billing, finance, stock, operations, and HR in one place, powered by artificial intelligence. Built for productive-sector companies that need full visibility without losing speed.",
+      "cta_primary": "Request a demo",
+      "cta_secondary": "See modules ↓"
+    }
+  },
+  "features": {
+    "es": {
+      "eyebrow": "Kaiken Flow",
+      "title": ["Todo lo que", "tu operación", "necesita."],
+      "body": "Kaiken centraliza la operación de tu empresa en una sola plataforma. Desde la facturación hasta el stock, la maquinaria y el personal — todo accesible desde cualquier dispositivo."
+    },
+    "en": {
+      "eyebrow": "Kaiken Flow",
+      "title": ["Everything", "your operation", "needs."],
+      "body": "Kaiken centralizes your company's operations in a single platform. From billing to stock, machinery, and people — all accessible from any device."
+    },
+    "items": [
+      {
+        "id": "billing",
+        "icon": "billing",
+        "es": { "name": "Facturación", "desc": "Comprobantes, clientes y proveedores en un solo lugar. Carga de facturas con IA a partir de un PDF, sin tipeo manual." },
+        "en": { "name": "Billing", "desc": "Invoices, clients, and suppliers in one place. AI-powered invoice upload from a PDF, no manual typing." }
+      },
+      {
+        "id": "finance",
+        "icon": "finance",
+        "es": { "name": "Finanzas", "desc": "Tesorería, cajas y flujo de caja proyectado. Visibilidad de gastos por categoría, proyecto y centro de costo." },
+        "en": { "name": "Finance", "desc": "Treasury, cash accounts, and projected cash flow. Visibility into expenses by category, project, and cost center." }
+      },
+      {
+        "id": "stock",
+        "icon": "stock",
+        "es": { "name": "Stock", "desc": "Inventario por depósito con alertas de stock mínimo. Movimientos de ingreso, egreso y transferencias trazados." },
+        "en": { "name": "Stock", "desc": "Inventory by warehouse with minimum-stock alerts. Tracked inbound, outbound, and transfer movements." }
+      },
+      {
+        "id": "operations",
+        "icon": "operations",
+        "es": { "name": "Operaciones", "desc": "Maquinaria, flota y mantenimiento bajo control. Alertas de servicio próximo o vencido por horas o kilómetros." },
+        "en": { "name": "Operations", "desc": "Machinery, fleet, and maintenance under control. Alerts for upcoming or overdue service by hours or mileage." }
+      },
+      {
+        "id": "hr",
+        "icon": "hr",
+        "es": { "name": "RRHH", "desc": "Legajos, liquidaciones y reportes de dotación. Masa salarial por área y exportación de recibos de sueldo." },
+        "en": { "name": "HR", "desc": "Employee records, payroll, and headcount reports. Payroll mass by department and payslip export." }
+      },
+      {
+        "id": "security",
+        "icon": "security",
+        "es": { "name": "Seguridad y Accesos", "desc": "Roles diferenciados por usuario y permisos por módulo, con datos operativos accesibles solo a usuarios autorizados." },
+        "en": { "name": "Security and Access", "desc": "Differentiated user roles and module-level permissions, with operational data accessible only to authorized users." }
+      }
+    ]
+  },
+  "ai": {
+    "es": {
+      "eyebrow": "Kaiken AI",
+      "title": ["Inteligencia artificial,", "aplicada a", "tu operación."],
+      "body": "Kaiken integra inteligencia artificial para automatizar tareas administrativas, agilizar la carga de datos y extraer información útil de tu operación."
+    },
+    "en": {
+      "eyebrow": "Kaiken AI",
+      "title": ["Artificial intelligence,", "applied to", "your operation."],
+      "body": "Kaiken integrates artificial intelligence to automate administrative tasks, speed up data entry, and extract useful insights from your operation."
+    },
+    "items": [
+      {
+        "id": "yatel",
+        "es": { "name": "Yatel — Kaiken Copilot", "desc": "Asistente conversacional que responde preguntas sobre ventas, stock, liquidaciones y flota usando los datos de tu propia operación." },
+        "en": { "name": "Yatel — Kaiken Copilot", "desc": "Conversational assistant that answers questions about sales, stock, payroll, and fleet using your own operation's data." }
+      },
+      {
+        "id": "agents",
+        "es": { "name": "Kaiken Agents", "desc": "Automatizaciones configurables: centinela de stock, reportes financieros automáticos y alertas de mantenimiento." },
+        "en": { "name": "Kaiken Agents", "desc": "Configurable automations: stock sentinel, automatic financial reports, and maintenance alerts." }
+      },
+      {
+        "id": "insight",
+        "es": { "name": "Kaiken Insight", "desc": "Proyecciones financieras, análisis de costos e insights predictivos para anticiparte a tu operación." },
+        "en": { "name": "Kaiken Insight", "desc": "Financial projections, cost analysis, and predictive insights to stay ahead of your operation." }
+      }
+    ]
+  },
+  "showcase": {
+    "es": {
+      "eyebrow": "En acción",
+      "title": ["Así se ve", "Kaiken", "en el día a día."],
+      "body": "Una mirada rápida a los flujos principales del sistema."
+    },
+    "en": {
+      "eyebrow": "In action",
+      "title": ["This is what", "Kaiken", "looks like day to day."],
+      "body": "A quick look at the system's core workflows."
+    },
+    "items": [
+      {
+        "id": "invoiceAI",
+        "es": { "name": "Carga de facturas con IA", "desc": "Subí un PDF y la IA extrae tipo, CUIT, fechas e importes automáticamente." },
+        "en": { "name": "AI invoice upload", "desc": "Upload a PDF and AI extracts type, tax ID, dates, and amounts automatically." }
+      },
+      {
+        "id": "stock",
+        "es": { "name": "Control de stock", "desc": "Inventario por depósito, alertas de mínimo y movimientos en tiempo real." },
+        "en": { "name": "Stock control", "desc": "Inventory by warehouse, minimum-stock alerts, and real-time movements." }
+      },
+      {
+        "id": "yatel",
+        "es": { "name": "Consulta a Yatel", "desc": "Preguntale a tu copiloto por cualquier dato de tu operación." },
+        "en": { "name": "Ask Yatel", "desc": "Ask your copilot about any data in your operation." }
+      }
+    ]
+  },
+  "about": {
+    "es": {
+      "eyebrow": "Origen",
+      "title": "De dónde viene el nombre",
+      "manifesto": "El kaiken (o cauquén) es un ave migratoria nativa de la Patagonia, conocida por resistir los climas más extremos del sur y recorrer largas distancias sin perder el rumbo. El nombre evoca la capacidad de una operación productiva para avanzar y adaptarse incluso en las condiciones más exigentes."
+    },
+    "en": {
+      "eyebrow": "Origin",
+      "title": "Where the name comes from",
+      "manifesto": "The kaiken (upland goose) is a migratory bird native to Patagonia, known for withstanding the south's harshest climates and covering long distances without losing its way. The name evokes a productive operation's ability to move forward and adapt even under the most demanding conditions."
+    }
+  },
+  "contact": {
+    "es": {
+      "title": ["¿Listo para", "modernizar tu", "<acc>operación?</acc>"],
+      "body": "Pedí una demo y te mostramos cómo Kaiken se adapta a tu empresa.",
+      "cta": "Escribinos →"
+    },
+    "en": {
+      "title": ["Ready to", "modernize your", "<acc>operations?</acc>"],
+      "body": "Request a demo and we'll show you how Kaiken fits your business.",
+      "cta": "Get in touch →"
+    }
+  },
+  "nav": {
+    "es": { "features": "Módulos", "ai": "Kaiken AI", "about": "Origen", "contact": "Contacto", "cta": "Solicitar demo" },
+    "en": { "features": "Modules", "ai": "Kaiken AI", "about": "Origin", "contact": "Contact", "cta": "Request a demo" }
+  },
+  "footer": {
+    "es": { "features": "Módulos", "ai": "Kaiken AI", "about": "Origen", "contact": "Contacto" },
+    "en": { "features": "Modules", "ai": "Kaiken AI", "about": "Origin", "contact": "Contact" }
+  }
+}
